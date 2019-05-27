@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8">
+		<!--IE8开启标准的渲染模式-->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- 视窗的配置 -->
+		<meta name="viewport" content="width=device-width,initial-scale=1 , user-scalable=no" />
+		<title>bootstrap项目实战</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/animate.css">
+	</head>
+	<body>
+		<!-- 导航 -->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">  
+				<!-- 小屏幕导航按钮和logo -->
+				<div class="navbar-header">
+					<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="index.html" class="navbar-brand">Bootstrap</a>	
+				</div>
+				
+				<!-- 导航 -->
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#home">首页</a></li>
+						<li><a href="#bbs">论坛</a></li>
+						<li><a href="#html5">前端开发</a></li>
+						<li><a href="#bootstrap">Vue</a></li>
+						<li><a href="#course">相关技术</a></li>
+						<li><a href="#content">联系我</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- 导航 -->
+		
+		<!-- home -->
+		<section id="home">
+			<div class="lvjing">
+				<div class="container">
+					<div class="row wow fadeInDown" data-wow-duration="2s" >
+						<div class="col-md-1"></div>
+						<div class="col-md-10">
+							<h1>Bootstrap实战</h1>
+							<p>
+								css样式和js样式。了解已经写好的Bootstrap样式<br>
+								Bootstrap 提供了一套响应式、移动设备优先的流式网格系统，随着屏幕或视口（viewport）尺寸的增加，系统会自动分为最多12列。
+							</p>
+							<img src="imgs/timg.jpg" class="img-responsive" alt="图片">
+						</div>
+						<div class="col-md-1"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- home -->
+		
+		<!-- bbs -->
+		<section id="bbs">
+			<div class="container">
+				<div class="row wow flipInY" data-wow-offset="10">
+					<div class="col-md-4">
+						<a href="http://www.android-studio.org/" target="_blank">
+							<img src="imgs/a.png" class="img-responsive" alt="">
+							<h3>Android开发</h3>
+							<p>Bootstrap是自适应屏幕分辨率的</p>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="https://react.docschina.org/" target="_blank">
+							<img src="imgs/b.png" class="img-responsive"  alt="">
+							<h3>Webpack</h3>
+							<p>是前端资源模块化管理和打包工具</p>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="https://cn.vuejs.org/" target="_blank">
+							<img src="imgs/i.png" class="img-responsive" alt="">
+							<h3>Vue.js</h3>
+							<p>是一套构建用户界面的渐进式框架。</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- bbs -->
+		
+		<!-- html5 -->
+		<section id="html5">
+			<div class="container">
+				<div class="col-md-6 wow rollIn" data-wow-duration="2s">
+					<h2>HTML5前端开发</h2>
+					<p><span class="glyphicon glyphicon-grain mai-icon"></span>HTML5 的 canvas 元素使用 JavaScript 在网页上绘制图像。</p>
+					<p><span class="glyphicon glyphicon-grain mai-icon "></span>canvas 拥有多种绘制路径、矩形、圆形、字符以及添加图像的方法。</p>
+				</div>
+				<div class="col-md-6 wow slideInRight" data-wow-duration="2s">
+					<img src="imgs/html5.jpg" class="img-responsive" alt="">
+				</div>
+			</div>
+		</section>
+		<!-- html5 -->
+		
+		<!-- bootstrapt -->
+		<div id="bootstrap">
+			<div class="container">
+				<div class="col-md-6 wow rollIn" data-wow-duration="2s">
+					<img src="imgs/vue.jpg" class="img-responsive" alt="">
+				</div>
+				<div class="col-md-6 wow slideInRight" data-wow-duration="2s">
+					<h2>Vue.js</h2>
+					<p>Vue是一套用于构建用户界面的渐进式框架</p>
+					<p><span class="glyphicon glyphicon-grain mai-icon"></span>Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。</p>
+					<p><span class="glyphicon glyphicon-grain mai-icon"></span>Vue.js 使用了基于 HTML 的模板语法，允许开发者声明式地将 DOM 绑定至底层 Vue 实例的数据。</p>
+				</div>
+			</div>
+		</div>
+		<!-- bootstrapt -->
+		
+		<!--基础课程-->
+		<section id="course">
+		    <div class="container">
+		        <div class="row wow fadeIn" data-wow-delay="0.6s">
+		            <div class="col-md-12">
+		                <h2>相关技术</h2>
+		            </div>
+		            <div class="col-md-3">
+		                <div class="course">
+		                    <img src="imgs/c1.jpg" class="img-responsive" alt=""/>
+		                    <a href="" class="btn btn-primary" target="_blank" role="button">
+		                        计算机基础
+		                    </a>
+		                </div>
+		            </div>
+		            <div class="col-md-3">
+		                <div class="course">
+		                    <img src="imgs/c2.jpg" class="img-responsive" alt=""/>
+		                    <a href="" class="btn btn-primary" target="_blank" role="button">
+		                        jQuery
+		                    </a>
+		                </div>
+		            </div>
+		            <div class="col-md-3">
+		                <div class="course">
+		                    <img src="imgs/c3.jpg" class="img-responsive" alt=""/>
+		                    <a href="" class="btn btn-primary" target="_blank" role="button">
+		                        node.js
+		                    </a>
+		                </div>
+		            </div>
+		            <div class="col-md-3">
+		                <div class="course">
+		                    <img src="imgs/c4.jpg" class="img-responsive" alt=""/>
+		                    <a href="" class="btn btn-primary" target="_blank" role="button">
+		                        React
+		                    </a>
+		                </div>
+		            </div>
+		            <div class="col-md-3">
+		                <div class="course">
+		                    <img src="imgs/c5.jpg" class="img-responsive" alt=""/>
+		                    <a href="" class="btn btn-primary" target="_blank" role="button">
+		                        Webpack
+		                    </a>
+		                </div>
+		            </div>
+		            <div class="col-md-3">
+		                <div class="course">
+		                    <img src="imgs/c1.jpg" class="img-responsive" alt=""/>
+		                    <a href="" class="btn btn-primary" target="_blank" role="button">
+		                        编译原理
+		                    </a>
+		                </div>
+		            </div>
+		            <div class="col-md-3">
+		                <div class="course">
+		                    <img src="imgs/c2.jpg" class="img-responsive text-center" alt=""/>
+		                    <a href="" class="btn btn-primary" target="_blank" role="button">
+		                        jq
+		                    </a>
+		                </div>
+		            </div>
+		            <div class="col-md-3">
+		                <div class="course">
+		                   <img src="imgs/c3.jpg" class="img-responsive" alt=""/>
+		                   <a href="" class="btn btn-primary" target="_blank" role="button">
+		                       node
+		                   </a>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</section>
+		<!--course end-->
+		
+		<!--app-->
+		<section id="app">
+		    <div class="container">
+		        <div class="row  wow fadeInUp">
+		            <div class="col-md-6">
+						<h2>JavaScript</h2>
+		                <p><span class="glyphicon glyphicon-grain mai-icon"></span>
+		                   ECMAScript是JavaScript的规格，JavaScript是ECMAScript的实现。
+		                </p>
+		                <p><span class="glyphicon glyphicon-grain mai-icon"></span>
+		                    jQuery 是一个 JavaScript 库。 jQuery 极大地简化了 JavaScript 编程。
+		                </p>
+		        </div>
+		            <div class="col-md-6">
+		                <img src="imgs/ap.jpg" class="img-responsive" alt=""/>
+		            </div>
+		        </div>
+		    </div>
+		</section>
+		<!--软技能 end-->
+		
+		<section id="content">
+			<div class="lvjing">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<h2><span class="glyphicon glyphicon-send"></span>&nbsp;联系练习</h2>
+							<p>field</p>
+							<address>
+								<p>
+									<span class="glyphicon glyphicon-home"></span>
+									&nbsp;
+									地址:AABB</p>
+								<p>
+									<span class="glyphicon glyphicon-phone-alt"></span>
+									&nbsp;
+									联系电话: 0101
+								</p>
+								<p>
+									<span class="glyphicon glyphicon-envelope"></span>
+									&nbsp;
+									邮箱: mail
+								</p>
+							</address>
+						</div>
+					
+						<div class="col-md-6  wow slideInRight" data-wow-duration="2s">
+							<from action="#" method="post">
+								<div class="col-md-6">
+									<input type="text" class="form-control" placeholder="您的姓名">
+								</div>
+								<div class="col-md-6">
+									<input type="text" class="form-control" placeholder="您的邮箱">
+								</div>
+								<div class="col-md-12">
+									<input class="form-control" placeholder="标题" row="1"/>
+								</div>
+								<div class="col-md-12">
+									<textarea class="form-control" placeholder="留言内容" row="4"></textarea>
+								</div>
+								<div class="col-md-8">
+									<input type="submit" class="form-control" value="提交">
+								</div>
+							</from>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		
+		<!-- footer -->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<p>Copyright&nbsp;2019 </p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- footer -->
+
+		
+		
+		<!-- 引入jQuery文件 -->
+		<script src="JQuery/jquery.js"></script>
+		<!-- 引入Bootstrap的css样式和js样式 -->
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.singlePageNav.min.js"></script>
+		<script src="js/wow.min.js"></script>
+		
+		<script>
+			$(function(){
+				/*导航跳转效果插件*/
+				$('.nav').singlePageNav({
+					offset:70
+				});
+				
+				/*小屏幕导航点击关闭菜单*/
+				$('.navbar-collapse a').click(function(){
+					$('.navbar-collapse').collapse('hide');
+				});
+				
+				new WOW().init();
+			})
+			
+		</script>
+	</body>
+</html>
